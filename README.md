@@ -11,7 +11,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     height: 100vh;
     margin: 0;
     
@@ -54,7 +53,7 @@ button:hover {
     <div class="container">
         <div class="login">
             <h2 >login</h2>
-            <div class="entry">
+            <form class="entry">
                 <label for="username" >user name</label>
                 <input type="text" id="username" name="username"required>
             </div>
@@ -63,7 +62,8 @@ button:hover {
                 <input type="text" id="password"name="password" required>
             </div>
            <button type="submit">Login</button>
-           </div>
-           </div>
+           </form>
+      </div>
+    </div>
 </body>
 </html>

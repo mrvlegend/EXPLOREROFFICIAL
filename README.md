@@ -53,7 +53,8 @@ button:hover {
     <div class="container">
         <div class="login">
             <h2 >login</h2>
-            <form class="entry">
+            <form action="/login" method="post">
+            <div class="entry">
                 <label for="username" >user name</label>
                 <input type="text" id="username" name="username"required>
             </div>

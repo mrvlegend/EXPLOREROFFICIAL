@@ -56,11 +56,11 @@ button:hover {
             <form action="/login" method="post">
             <div class="entry">
                 <label for="username" >user name</label>
-                <input type="text" id="username" name="username"required>
+                <input type="text" id="username" name="username" required>
             </div>
             <div class="entry">
-                <label for="password" >user name</label>
-                <input type="text" id="password"name="password" required>
+                <label for="password" >password</label>
+                <input type="password" id="password"name="password" required>
             </div>
            <button type="submit">Login</button>
            </form>

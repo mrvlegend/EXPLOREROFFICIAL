@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -47,10 +46,6 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-@media (max-width: 600px) {
-    .container {
-        padding: 15px;
-    }
 
 }
     </style>
